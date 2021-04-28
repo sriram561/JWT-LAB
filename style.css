@@ -1,0 +1,157 @@
+.container {
+  width: 100%;
+  margin:auto;
+  overflow:hidden;
+}
+header {
+  margin:0;
+  padding: 15px 0px;
+  color: #ffffff;
+  background-color: #35424a;
+  border-bottom:#e8491d 3px solid;
+}
+header h1 {
+  float:left;
+  font-size: 32px;
+    
+}
+header img{
+    width: 100px;
+    margin:none;
+    padding-top: 10px;
+}
+header nav {
+  float: right;
+  padding-top: 10px;
+}
+header li  {
+  display:inline;
+  padding-right: 25px;
+}
+li a {
+  font-size: 22px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#e8491d;
+}
+
+.about{
+    font-size: 20px;
+    text-align:center;
+    background-color: aliceblue;
+    margin: 0;
+/*    padding: 30px;*/
+    width: 100%;
+}
+
+.login{
+/*    text-align: center;*/
+    background-color: cadetblue;
+    border: 5px solid black;
+    font-size: 20px;
+}
+
+.login form{
+    display: inline-block;
+    margin-left: 25%;
+}
+
+.Register{
+    margin:0;
+    text-align: center;
+    background-color: #35424a;
+    color: #ffffff;
+    border: 5px solid black;
+    font-size: 20px;
+}
+
+.padding
+{
+    background: orange;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom:40px;
+}
+
+.login form b,.Register form b{
+    font-family: 'Kaushan Script',serif;
+}
+
+
+h2{
+    font-family: 'Lora',serif;
+    text-decoration: underline;
+    text-align: center;
+}
+.login header img{
+    float:right;
+    margin-right:35%;
+    width:140px;
+    
+}
+.login button{
+    margin-left: 50%;
+}
+
+.showcase{
+    background-image: url(https://www.amrita.edu/sites/default/files/alumni-meet.jpg);
+    height: 300px;
+    margin-bottom: 60px;
+}
+.showcase h1{
+    text-align:center;
+    padding-top: 40px;
+    font-family: "Lora",serif;
+    text-decoration-line: underline;
+    text-shadow: 10px;
+    color:blue;
+    
+}
+
+.fb {
+    text-align: center;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer{
+  margin:0;
+  padding: 15px 0px;
+  color: #ffffff;
+  background-color: #35424a;
+  border-bottom:#e8491d 3px solid;
+}
+
+.column img{
+    margin-left: 170px;
+}
+.column p{
+    text-align: justify;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 20px;
+}
+.column form{
+    font-size: 20px;
+}
+
+.schoolimg{
+    overflow: hidden;
+}
+
+
+
+
