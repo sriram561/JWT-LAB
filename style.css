@@ -149,7 +149,10 @@ footer{
 }
 
 .schoolimg{
-    overflow: hidden;
+    background-image: url(Images/School%20home.png);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
 }
 
 
