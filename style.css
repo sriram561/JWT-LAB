@@ -153,6 +153,48 @@ footer{
     height: 600px;
     width: 100%;
     background-size: cover;
+  
+  /* --------Mobile--------- */
+
+@media screen and (max-width:1400px)
+{
+    ul li:not(:nth-child(1)){
+        display: none;
+    }  
+    
+    ul li a{
+        font-size: 15px;
+    }
+    
+    ul li.ddMenu
+    {
+        display:block;
+        float:right;
+    }
+    .topnav.responsive li.ddMenu{
+        position: absolute;
+        top:0;
+        right:0;
+    }
+    
+    .topnav.responsive{
+        position: relative;
+    }
+    
+    .topnav.responsive h1{
+        display: none;
+    }
+    
+    .topnav.responsive li{
+        display: inline;
+        float:none;
+    }
+    .topnav.responsive li a{
+        display: block;
+        text-align: left;
+        
+    }
+    
 }
 
 
